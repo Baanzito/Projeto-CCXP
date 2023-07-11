@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+header{
+    background-color: #FFD900;
+    padding-bottom: 25px;
+    padding-top: 27px;
+    padding-left: 58px;
+}
+
+.section{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.timer-text{
+    background-color: #514988;
+    min-width: 678px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+    padding-top: 31px;
+}
+
+.timer-text h1{
+    color: #F3C61F;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.timer-text h2{
+    color: #FFFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 72px;
+}
+
+.timer-text p{
+    color: #FFFf;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 400px;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 20px;
+
+    line-height: normal;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    gap: 0px;
+    width: 100%;
+
+    color: #514988;
+    text-align: center;
+    font-family: Verdana;
+    font-style: normal;
+    line-height: normal;
+
+}
+
+
+.section-video{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 51px;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 18px;
+}
+
+body > section > div.section-video > p{
+    color: #E33881;
+    font-size: 30px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 40px;
+}
+
+.ingresso p{
+    color: #F3C61F;
+    font-size: 27px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 15px;
+    margin-left: 89px;
+    margin-bottom: 15px;
+}
+
+.ingresso .cards{
+    margin-left: 81px;
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.ingresso button{
+    border-radius: 20px;
+    background: #514988;
+    width: 596px;
+    height: 148px;
+    color: #FFF;
+
+    text-align: center;
+    font-size: 42px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 107px;
+    margin-top: 33px;
+    cursor: pointer;
+}
