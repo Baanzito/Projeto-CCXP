@@ -30,6 +30,7 @@
                 aventuras épicas a cada passo pelos nossos corredores.<br>
             </p>
         </div>
+
 <!-- TIMER -->
     <div class="section-video">
         <div class="timer">
@@ -57,17 +58,40 @@
     </section>
 
 <!-- INGRESSO -->
-
     <div class="ingresso">
         <p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
         <div class="cards">
             <div>
-                <img src="./img/ingresso1.svg">
-                <img src="./img/ingressso2.svg">
-                <img src="./img/ingresso3.svg">
-                <img src="./img/ingresso4.svg">
+                <img 
+                    class = "cards-ingressos"
+                    id="quinta"
+                    onclick="selectCard('#quinta')"
+                    onmouseover="highlightCard('#quinta')" 
+                    onmouseout="highlightCard('#quinta')" 
+                    src="./img/ingresso1.svg">
+                <img 
+                    class = "cards-ingressos"
+                    id="sexta"
+                    onclick="selectCard('#sexta')"
+                    onmouseover="highlightCard('#sexta')" 
+                    onmouseout="highlightCard('#sexta')" 
+                    src="./img/ingressso2.svg">
+                <img 
+                    class = "cards-ingressos"
+                    id="sabado"
+                    onclick="selectCard('#sabado')"
+                    onmouseover="highlightCard('#sabado')" 
+                    onmouseout="highlightCard('#sabado')" 
+                    src="./img/ingresso3.svg">
+                <img 
+                    class = "cards-ingressos"
+                    id="domingo"
+                    onclick="selectCard('#domingo')"
+                    onmouseover="highlightCard('#domingo')" 
+                    onmouseout="highlightCard('#domingo')" 
+                    src="./img/ingresso4.svg">
             </div>
-            <button>GARANTA O SEU!</button>
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
     </div>
 

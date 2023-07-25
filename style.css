@@ -134,3 +134,12 @@ body > section > div.section-video > p{
     margin-top: 33px;
     cursor: pointer;
 }
+
+.card-highlight
+{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
